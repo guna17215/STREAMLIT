@@ -26,4 +26,7 @@ st.download_button(
 	mime = 'txt/csv',
 	help = "Not only csv files you can create dowload buttons for directing to dowload images, binaryfiles, textfiles.",
 )
+
+st.subheader("3.Check Boxes, Radio Buttons, Select Buttons, Multi Select.")
+st.write("If have doubts or forgot syntax refer documentation for above topics.")
 	
