@@ -21,7 +21,7 @@ else:
 st.subheader("2.Download Buttons.")
 st.download_button(
 	label = "Download a csv file.",
-	data = csv,
+	data = 'csv',
 	file_name = 'IPL 2022.csv',
 	mime = 'txt/csv',
 	help = "Not only csv files you can create dowload buttons for directing to dowload images, binaryfiles, textfiles.",
