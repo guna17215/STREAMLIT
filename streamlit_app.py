@@ -7,7 +7,10 @@ st.subheader("1. Normal Buttons.")
 result = st.button(label = "Button.", help = "This is button where its default value is false and on click it turns boolean value true.")
 res = str(result)
 st.write("On Click, it becomes true: " + res)
-if st.button("click me"):
+if st.button(
+label = "Click Me.",
+help = "This button has its own content to display, other than true false."
+):
 	st.write("Hey there, I am button. :heart:")
 else:
 	st.write("you haven't clicked the button. :point_up:")
