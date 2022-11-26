@@ -7,5 +7,5 @@ if st.button("click me"):
 	st.write("Hey there, I am button.")
 	st.write(":heart:")
 else:
-	st.write("you haven't clicked the button.")
+	st.write("you haven't clicked the button. :point_up:")
 	st.write(":point_up:")
