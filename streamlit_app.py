@@ -4,7 +4,7 @@ st.title("Hello, My name is Gunavardhan Reddy, learning streamlit!")
 
 st.header("Here we are learning how BUTTTONS work in streamlit.")
 st.subheader("1. Normal Buttons.")
-result = st.button(label = "Button.", help = "This is button where its default value is false and on click it turns boolean value true.)
+result = st.button(label = "Button.", help = "This is button where its default value is false and on click it turns boolean value true.")
 res = str(result)
 st.write("On Click, it becomes true: " + res)
 if st.button("click me"):
