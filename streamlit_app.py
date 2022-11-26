@@ -28,5 +28,5 @@ st.download_button(
 )
 
 st.subheader("3.Check Boxes, Radio Buttons, Select Buttons, Multi Select.")
-st.markdown("If have doubts or forgot syntax refer documentation for above topics.")
+st.latex("If have doubts or forgot syntax refer documentation for above topics.")
 	
