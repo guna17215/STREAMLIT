@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header("Hello, My name is Gunavardhan Reddy, learning streamlit!")
+st.title("Hello, My name is Gunavardhan Reddy, learning streamlit!")
 
 st.header("Here we are learning how BUTTTONS work in streamlit.")
 if st.button("click me"):
