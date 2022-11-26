@@ -8,3 +8,4 @@ if st.button("click me"):
 	st.write(":heart:")
 else:
 	st.write("you haven't clicked the button.")
+	st.write(":finger:")
