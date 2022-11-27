@@ -1,4 +1,5 @@
 import streamlit as st
+from datetime import datetime
 
 
 st.title("Hello, My name is Gunavardhan Reddy, learning streamlit!")
@@ -38,6 +39,13 @@ else:
 languages = ['PYTHON', 'C', 'C++', 'JAVA', 'JAVASCRIPT']
 language = st.radio("Which language do you like the most.", languages)
 st.write("you like to code in "+ language + ".")
+
+st.subheader("4.sliders")
+start_time = st.slider(
+	label = "When did you start learning streamlit?",
+        value = datetime(11, 25, 2022, 5, 30),
+	format = "MM/DD/YY - hh:mm")
+st.write("You started learning streamlit : ", value)
 
 
 	
