@@ -37,5 +37,5 @@ else:
 	
 languages = ['PYTHON', 'C', 'C++', 'JAVA', 'JAVASCRIPT']
 language = st.radio("Which language do you like the most.", languages)
-print("you like to code in "+ language.)
+print("you like to code in "+ language + ".")
 	
