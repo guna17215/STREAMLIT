@@ -44,8 +44,11 @@ st.subheader("4.sliders")
 start_time = st.slider(
 	label = "When did you start learning streamlit?",
         value = datetime(2022, 11, 25, 5, 30),
-	format = "MM/DD/YY - hh:mm")
-st.write("You started learning streamlit : ", value)
+	format = "MM/DD/YY - hh:mm",
+        help = "Similarly, you have select sliders also. Select sliders take any datatype as input where as sliders don't.")
+st.write("You started learning streamlit : ", start_time)
 
+st.subheader("5.text, number, time, date, camera inputs, file_uploader and text area")
+st .write("**Refer streamlit Documentation.**")
 
 	
