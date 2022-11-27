@@ -31,9 +31,9 @@ st.subheader("3.Check Boxes, Radio Buttons, Select Buttons, Multi Select.")
 # st.latex("If have any doubts or forgot syntax refer documentation for above topics.") 
 value = st.checkbox("I will complete streamlit doucmentation by this month.")
 if value:
-	print("That's Great.:sunglasses:")
+	print("That's Great. :sunglasses:")
 else:
-	print("Very poor.:sleepy:")
+	print("Very poor. :sleepy:")
 	
 languages = ['PYTHON', 'C', 'C++', 'JAVA', 'JAVASCRIPT']
 language = st.radio("Which language do you like the most.", languages)
