@@ -19,7 +19,7 @@ else:
 	st.write("you haven't clicked the button. :point_up:")
 	
 st.subheader("2.Download Buttons.")
-st.download_button(int
+st.download_button(
 	label = "Download a csv file.",
 	data = 'csv',
 	file_name = 'IPL 2022.csv',
