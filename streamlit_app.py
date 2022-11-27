@@ -19,7 +19,7 @@ else:
 	st.write("you haven't clicked the button. :point_up:")
 	
 st.subheader("2.Download Buttons.")
-st.download_button(
+st.download_button(int
 	label = "Download a csv file.",
 	data = 'csv',
 	file_name = 'IPL 2022.csv',
@@ -28,5 +28,14 @@ st.download_button(
 )
 
 st.subheader("3.Check Boxes, Radio Buttons, Select Buttons, Multi Select.")
-st.latex("If have any doubts or forgot syntax refer documentation for above topics.")
+# st.latex("If have any doubts or forgot syntax refer documentation for above topics.") 
+value = st.checkbox("I will complete streamlit doucmentation by this month.")
+if value:
+	print("That's Great.:sunglasses:")
+else:
+	print("Very poor.:sleepy:")
+	
+languages = ['PYTHON', 'C', 'C++', 'JAVA', 'JAVASCRIPT']
+language = st.radio("Which language do you like the most.", languages)
+print("you like to code in "+ language.)
 	
