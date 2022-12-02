@@ -9,5 +9,5 @@ if uploaded_file:
   df = pd.read_csv(uploaded_file)
   st.write(df.describe())
 else:
-  st.wtrie("file not uploaded")
+  st.write("file not uploaded")
   
