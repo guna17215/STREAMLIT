@@ -11,3 +11,5 @@ if uploaded_file:
 else:
   st.write("file not uploaded")
   
+df.write(df.head())
+  
